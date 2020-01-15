@@ -1,0 +1,445 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type='search'] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.card-container {
+  width: 47.5%;
+  margin: 16px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  background: #ccc;
+  font-size: 16px;
+  padding: 16px;
+  clear: both;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.card-header {
+  margin-bottom: 32px;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+}
+
+.card-body {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+
+.card-textarea {
+  width: 100%;
+  height: 308px;
+  display: block;
+  position: relative;
+  resize: none;
+  overflow-x: hidden;
+  word-break: break-all;
+  overflow-y: auto;
+  background: inherit;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding-right: 16px;
+}
+.strength-card {
+  background: #007e33;
+}
+
+.weakness-card {
+  background: #b41322;
+}
+
+.opportunities-card {
+  background: #0f52ba;
+}
+
+.threats-card {
+  background: #b5651d;
+}
+
+.header,
+.footer {
+  height: 40px;
+  position: relative;
+  display: block;
+  margin: 0 16px;
+}
+
+/* width */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+textarea::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+/* Handle */
+textarea::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 4px;
+  cursor: default !important;
+}
+
+/* Handle on hover */
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+  cursor: default !important;
+}
+
+.header {
+  margin-top: 16px;
+}
+
+.logo-area {
+  font-size: 20px;
+  float: left;
+}
+
+.caption-area {
+  height: auto;
+  font-size: 16px;
+  float: left;
+  position: relative;
+}
+
+.credits-area {
+  height: auto;
+  font-size: 16px;
+  position: relative;
+  float: right;
+}
+
+.options-area {
+  text-align: center;
+}
+
+.switch-area {
+  float: right;
+}
+
+.default-image {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.logo-text {
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  height: 40px;
+  padding: 6px 0;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+  .card-container {
+    width: 46.5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .card-container {
+    width: 45.5%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .card-container {
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  body {
+    margin: 0 16px;
+  }
+
+  .header {
+    margin: 16px 0 0 0;
+  }
+
+  .footer {
+    margin: 0 0 16px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .card-container {
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  body {
+    margin: 0 16px;
+  }
+
+  .header {
+    margin: 16px 0 0 0;
+  }
+
+  .footer {
+    margin: 0 0 16px 0;
+  }
+}
