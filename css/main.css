@@ -394,6 +394,19 @@ textarea::-webkit-scrollbar-thumb:hover {
   font-size: 20px;
 }
 
+textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+textarea::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+
 @media (min-width: 961px) and (max-width: 1024px) {
   .card-container {
     width: 46.5%;
